@@ -1,0 +1,14 @@
+button a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(32, 28, 28);
+    height: 100px;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.banner-color{
+    background-color: #FEEAE9;
+}

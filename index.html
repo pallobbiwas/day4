@@ -17,7 +17,7 @@
     <!-- body -->
 
     <headr class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="./images/logo.png" alt="" width="159" height="24">
@@ -30,26 +30,26 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#Shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpak</a>
+                            <a class="nav-link" href="#Backpak">Backpak</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#Subscribe">Subscribe</a>
                         </li>
                 </div>
             </div>
         </nav>
         <!-- abnner -->
-        <section class="container my-5">
+        <section class="container my-5" id="Home">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner rounded-3">
                     <div class="carousel-item active ">
-                        <div class="row bg-secondary p-3 d-flex align-items-center">
+                        <div class="row banner-color p-3 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>cool dud headphone</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis
@@ -64,7 +64,7 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-secondary p-3 d-flex align-items-center">
+                        <div class="row banner-color p-3 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>cool dud headphone</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis
@@ -78,7 +78,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-secondary p-3 d-flex align-items-center">
+                        <div class="row banner-color p-3 d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>cool dud headphone</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit corporis
@@ -106,7 +106,8 @@
         </section>
     </headr>
     <main>
-        <section class="container my-5">
+        <!-- catogory -->
+        <section class="container my-4">
             <div class="overflow-hidden">
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6">
@@ -130,7 +131,117 @@
                 </div>
             </div>
         </section>
+        <!-- shues -->
+        <section class="container my-4" id="Shoes">
+            <h2 class="my-5">Shoes</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- bag -->
+        <section class="container my-4" id="Backpak">
+            <h2 class="my-5">Backpak</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red bag</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">blue bag</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 py-2 border-0 shadow-lg">
+                        <img class="img-fulid" src="./images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">alck bag</h5>
+                            <p class="card-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                                sint. </p>
+                            <h5 class="text-center">$1250</h5>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-warning text-muted "><a href="">Buy now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subscribs -->
+        <section style="height: 300px;" class="container d-flex text-start bg-info justify-content-center align-items-center rounded-3" id="Subscribe">
+            <div class="">
+                    <h1>Lets saty in touch</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    <input class="form-control" type="email" placeholder="email">
+                    <button class="btn bg-success mt-2">send</button>
+            </div>
+        </section>
     </main>
+    <footer class="mt-4">
+        <div style="height: 100%;" class="d-flex justify-content-center align-items-center">
+            <p class=" text-white">copy right &copy; by panda</p>
+        </div>
+    </footer>
 
     <!-- body -->
 
